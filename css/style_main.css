@@ -1,0 +1,227 @@
+@charset "utf-8";
+
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+ul, ol {
+   list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width:100%;
+    border-bottom:1px solid #ddd;
+    
+}
+
+header .inner {
+    width:1180px;
+    height: 120px;
+    margin:0px auto;
+    position: relative;
+}
+
+header .inner h1 {
+    position: absolute;
+    left: 0px;
+    bottom: 15px;
+}
+
+header .inner h1 a {
+    font-family: 'Noto Sans KR', sans-serif;
+    color:#444;
+    letter-spacing: 2px;
+}
+
+header .inner #gnb {
+    position:absolute;
+    bottom:0px;
+    right:0px;
+}
+
+header .inner #gnb li {
+    float: left;
+}
+
+header .inner #gnb a {
+    display: block;
+    color: #555;
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding:20px 40px;
+    letter-spacing: 1px;
+}
+
+header .inner #gnb a:hover {
+    background-color: #eee;
+    border-radius: 50px;
+}
+
+figure {
+    width: 100%;
+    position:relative;
+    overflow: hidden;
+    height: calc(100vh - 300px);
+}
+
+figure video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    position: absolute;
+}
+
+figure .inner {
+    width: 1180px;
+    margin: 0px auto;
+    top:70%;
+    position:relative;
+}
+
+figure .inner h1 {
+    font-size: 80px;
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+figure .inner p {
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: 5px;
+    color: #eee;
+    font-size: 30px;
+}
+
+figure .inner h1:hover {
+    color:#999;
+}
+
+footer {
+    width: 100%;
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    padding:20px 0px;
+    clear:both;
+}
+
+footer .inner {
+    width: 1180px;
+    margin:0px auto;
+}
+
+footer .inner .upper {
+    width:100%;
+    border-bottom:1px solid #777;
+    padding-bottom:10px;
+    text-align: center;
+    color:#333;
+    font-family: 'Noto Sans KR', sans-serif;
+    
+}
+
+footer .inner .lower {
+    width: 100%;
+    text-align: center;
+    padding-top:10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    color:#555;
+}
+
+footer .inner .lower address {
+    width: 1180px;
+    margin:0px auto;
+}
+
+.aboutme {
+    width: 1180px;
+    margin:0px auto;
+    
+}
+
+.subject { <!-- .aboutme .h1 -->
+    width:100%;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 80px;
+    letter-spacing: 5px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.aboutme .inner {
+    width : 100%;
+    height : 500px;
+    /* background-color: aliceblue; */
+}
+
+.aboutme .content_left{
+    width : 50%;
+    height: 100%;
+    margin: 0 auto;
+    float:left;
+    text-align: center;
+}
+.aboutme .content_left img {
+    width: 80%;
+ }
+
+.aboutme .content_right{
+    float:right;
+
+    width:50%;
+    height: 100%;
+    
+    font-size: 25px;
+    font-weight: 100;
+    padding-top: 120px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.skill .inner {
+    text-align: center;
+}
+.skill .inner h2 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: blue;
+}
+.skill .inner img {
+    width: 100px;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.hobby {width:100%; padding: 50px; }
+.hobby .inner { width:1180px; margin: 0px auto;}
+section .inner .wrap article {
+    width:280px;
+    float:left;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+section .inner .wrap article .pic  {
+    width: 100%;
+    height: 120px;
+    position: relative;
+}
+section .inner .wrap article .pic img {
+    object-fit: cover;
+    width: 100%;
+    height:100%;
+}

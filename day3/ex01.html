@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        class User {
+            constructor(name, num) {
+                this.name = name;
+                this.num = num;
+                this.school = '군포e비지니스 고등학교';
+                this.grade = '3학년';
+            }
+            print_info() {
+                document.write(this.school + ' ' + this.grade + ' ' +
+                this.name + ' ' + this.num + "<br>");
+            }
+        }
+
+        class Person extends User {
+            print_info() {
+                document.write("사람 : " + this.school + ' ' + 
+                this.grade + ' ' +
+                this.name + ' ' + this.num + "<br>");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1 id = "clock">현재 시간</h1>
+    <script>
+
+        let user = new Person("ㅇㅇㅇ", 12345678);
+        user.print_info();
+
+
+        function getTime() {
+            
+            let current = new Date();
+       
+            if(current.getSeconds() % 2 == 0)
+                document.body.style.backgroundColor='violet';
+            else
+                document.body.style.backgroundColor = 'lightskyblue';
+            hour = current.getHours();
+            minutes = current.getMinutes();
+            seconds = current.getSeconds();
+            
+            clock = document.getElementById("clock");
+            clock.innerText= `${hour}:${minutes}:${seconds}`;
+            
+        }        
+        setInterval(getTime, 1000);
+    </script>
+
+ 
+    
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+@import "reset.css";
+
+body {
+    background-color: #eeeeee;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-top:50px;
+}
+
+.canvas {
+    width: 700px ;
+    height: 700px ;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 
+    0 1px 3px rgba(0, 0, 0, 0.068);
+}
+
+.controls  {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.controls .controls__range {
+    margin-bottom:30px;
+}
+
+.controls .controls__colors {
+    display: flex;
+}
+
+.controls__colors .controls__colors {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    cursor:Pointer;
+    box-shadow: 0 6px 8px rgba(50, 50, 93, 0.11), 
+    0 3px 8px rgba(0, 0, 0, 0.68);
+}
+
+#s_color_picker_id {
+    cursor:Pointer;
+    text-align: center;
+  }
+  #color_id {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #000;
+  }

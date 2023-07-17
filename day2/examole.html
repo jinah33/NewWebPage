@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>리스트로 메뉴 만들기</title>
+<style>
+@keyframes textColorAnimation {
+    0% {color:blue;}
+    30% {color:green;}
+    100% {color:red;}
+}
+span {
+    animation-name: textColorAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+</style>
+</head>
+<body>
+<p>
+    <span>span</span>텍스트를 5초에 blue, green, red로 
+    무한 반복 합니다
+</p>
+
+
+<nav id="menubar">
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Espresso</a></li>
+		<li><a href="#">Cappuccino</a></li>
+		<li><a href="#">Cafe Latte</a></li>
+		<li><a href="#">F.A.Q</a></li>
+	</ul>
+</nav>
+</body>
+</html>

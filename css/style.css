@@ -1,0 +1,99 @@
+@import "reset.css";
+
+body {
+    background-color: #f5f0ff;
+    /* background-color: #edffeb; */
+}
+
+section {
+    width:400px;
+    padding:30px;
+    background-color: #ffffff;
+    margin: 50px auto;
+    box-shadow:10px 10px 30px 
+    rgba(0, 0, 0, 0.5);
+}
+
+section article.profile {
+    width:100%;
+    text-align:center;
+}
+
+section article.profile img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: : 20px;
+    /* box-shadow:5px 15px 20px rgba(183, 82, 250, 0.2); */
+}
+
+section article.profile h1 {
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
+    color:#333;
+}
+
+section article.profile h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-weight: lighter;
+    font-family: 'Noto Sans KR', sans-serif;
+    color:#777;
+}
+
+section a.btnView {
+    font-family: 'Noto Sans KR', sans-serif;
+    display: block;
+    background: #654ea3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width : 200px;
+    height: 50px;
+
+    line-height: 50px;
+    text-align: center;
+    margin: 0px auto 20px;
+
+    border-radius: 25px;
+
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 17px;
+    text-decoration-line: none;
+    box-shadow:3px 3px 10px 
+    rgba(0, 0, 0, 0.5);
+   
+}
+
+section ul.contact {
+    margin-top:50px;
+}
+section ul.contact li{    
+    width: 100%;
+    height: 15px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center; 
+}
+
+section ul.contact li span.information {
+    font-weight: normal;
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: 2px;
+    color:#555;
+    font-size:16px;
+    margin-left: 10px;
+    top:50%;
+    text-align: center;
+}
+
+.sns {
+    text-decoration-line:none;
+    margin-top: 30px;
+    text-align: right; 
+    color: #333;
+}
